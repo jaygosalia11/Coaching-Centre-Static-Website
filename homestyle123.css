@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Code For the Home Page*/
+.navbar{
+    height:40px;
+    width:100%;
+    background-color: limegreen;
+    display: flex;
+    align-items: center;
+   
+}
+.welcome1{
+    flex: 1;
+    background-color: black;
+    padding:10px 10px;
+    margin:30px 200px;
+    border-radius:50px;
+    text-align: center;
+    box-shadow: 5px 5px grey;
+    color: white;
+   
+}
+
+.welcome3{
+  text-align: center;
+  color: red;
+}
+.Determination{
+  color: red;
+}
+.progress{
+  color:red;
+}
+.navbar ul li{
+
+    display: inline-block
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding:100px 100px 100px 100px;
+    color:black;
+    font-size: 25px;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color:black;
+  text-align: center;
+  padding-top :20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+/* Code For The Courses Page*/
+.section{
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-teacher-s-college-classroom-coaching-course-poster-background-image_188494.jpg");
+  background-size:cover;
+  height:100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 60px 50px 60px;
+  background-repeat: no-repeat;
+
+}
+.section .physics{
+  flex: 1;
+  background-color: black;
+  padding:10px 10px;
+  margin:30px 200px;
+  border-radius:50px;
+  text-align: center;
+  box-shadow: 5px 5px grey;
+  color: white;
+
+}
+.section .chemistry{
+  flex: 1;
+  background-color: black;
+  padding:10px 10px;
+  margin:30px 200px;
+  border-radius:50px;
+  text-align: center;
+  color: white;
+  box-shadow: 5px 5px grey;
+}
+.section .maths{
+  flex: 1;
+  background-color: black;
+  padding:10px 10px;
+  margin:30px 200px;
+  border-radius:50px;
+  text-align: center;
+  color: white;
+  box-shadow: 5px 5px grey;
+}
+.section .biology{
+  flex: 1;
+  background-color: black;
+  padding:10px 10px;
+  margin:30px 200px;
+  border-radius:50px;
+  text-align: center;
+  color: white; 
+  box-shadow: 5px 5px grey;
+}
+
+/* Code For The Enquiry Form*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.head{
+  width: 100%;
+  height: 100vh;
+  background-position:center;
+  background-size:cover;
+  background-image: url("https://img4.goodfon.com/wallpaper/nbig/d/fa/material-design-color-tekstura-fon-linii-background.jpg");
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  
+}
+form{
+  width:100%;
+  max-width:600px;
+}
+.allinput{
+  margin-bottom: 30px;
+}
+input,textarea{
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 3px solid black;
+  color:black;
+  border-radius: 15px;
+ 
+  font-size:15px;
+}
+
+button{
+  padding: 10px 0;
+  outline: none;
+  color:black;
+  border: 3px solid black;
+  border-radius: 15px;
+  font-size: large;
+  background:transparent;
+  width: 100%;
+  cursor: pointer;
+ 
+}
+p{
+  color:black;
+  font-size: medium;
+}
